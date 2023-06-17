@@ -750,8 +750,8 @@ video {
 }
 
 .line{
-  height: 1.75rem;
-  line-height: 1.75rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
 
 }
 
@@ -940,6 +940,11 @@ video {
 .bg-slate-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.border-red-700{
+  border-width: 1px;
+  border-color: rgb(239 68 68 / var(--tw-bg-opacity))
 }
 
 .bg-white {
