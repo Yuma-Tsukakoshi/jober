@@ -7,6 +7,7 @@
   <title>joberテスト</title>
   <link rel="stylesheet" href="../tailwind/tailwind.css">
   <link rel="stylesheet" href="../vendor/tailwind/tailwind.output.css">
+  <script src="https://kit.fontawesome.com/eca7fb4794.js" crossorigin="anonymous"></script>
 </head>
 <body> 
     <div class="flex h-screen bg-gray-50" :class="{ 'overflow-hidden': isSideMenuOpen}">
@@ -98,16 +99,16 @@
               <table class="w-full whitespace-no-wrap">
                 <thead>
                   <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b">
-                    <th class="px-4 py-3">ID</th>
-                    <th class="px-4 py-3"></th>
-                    <th class="px-4 py-3">名前</th>
-                    <th class="px-4 py-3">メールアドレス</th>
-                    <th class="px-4 py-3">資格状態</th>
-                    <th class="px-4 py-3">作成日時</th>
-                    <th class="px-4 py-3">最終アクセス日時</th>
-                    <th class="px-4 py-3">ユーザー更新日時</th>
-                    <th class="px-4 py-3">受験状況</th>
-                    <th class="px-4 py-3">チャット開閉<br>状況</th>
+                    <th>ID</th>
+                    <th class="w-10 h-10 rounded-full"></th>
+                    <th>名前</th>
+                    <th>メールアドレス</th>
+                    <th>資格状態</th>
+                    <th>作成日時</th>
+                    <th>最終アクセス日時</th>
+                    <th>ユーザー更新日時</th>
+                    <th>受験状況</th>
+                    <th>チャット開閉<br>状況</th>
                   </tr>
                 </thead>
                 <tbody class="bg-white divide-y">
@@ -115,7 +116,7 @@
                       <td class="px-2 py-2">
                         <p class="font-semibold items-center text-xs">890</p>
                       </td>
-                      <td class="px-2 py-2">
+                      <td class="px-2 py-2 w-5 rounded-full bg-blue-500">
                         <p class="font-semibold items-center text-xs"></p>
                       </td>
                       <td class="px-2 py-2 ">
@@ -125,10 +126,10 @@
                         <p class="font-semibold items-center text-xs">xxxxxxxxx@outlook.jp</p>
                       </td>
                       <td class="px-2 py-2 text-xs">
-                        <p class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full">
+                        <p class="px-2 py-1 mb-2 font-semibold leading-tight text-green-700 bg-green-100 rounded-full">
                           AWS Certified Developer - Associate
                         </p>
-                        <p class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full">
+                        <p class="px-2 py-1 mb-2 font-semibold leading-tight text-green-700 bg-green-100 rounded-full">
                           AWS Certified Solutions Architect - Associate
                         </p>
                       </td>
